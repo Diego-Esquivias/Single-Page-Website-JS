@@ -127,7 +127,7 @@ function imageClick(imageSrc) {
         newImage.src = imageSrc;
         
         // Apply the same CSS styles as the gallery images
-        newImage.style.cssText = imageStyle;
+        newImage.style.cssText = 'width: 400px; height: 500px; margin: 10px; border-radius: 15px; border: 2px solid white'
         
         // Center the new image
         newImage.style.display = 'block';
